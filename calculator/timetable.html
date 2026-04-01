@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Class Timetable</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f4f6f8;
+      padding: 40px;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 36px;
+      color: #2c3e50;
+      margin-bottom: 30px;
+    }
+
+    .timetable-container {
+      max-width: 900px;
+      margin: 0 auto;
+      background-color: #ffffff;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    th, td {
+      border: 1px solid #dfe6e9;
+      padding: 16px;
+      text-align: center;
+      font-size: 16px;
+      color: #34495e;
+    }
+
+    th {
+      background-color: #2d98da;
+      color: #ffffff;
+      font-size: 18px;
+    }
+
+    .hours {
+      background-color: #45aaf2;
+      color: white;
+      font-weight: bold;
+    }
+
+    .lunch {
+      background-color: #f6e58d;
+      color: #2d3436;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Class Timetable</h1>
+
+  <div class="timetable-container">
+    <table>
+      <tr>
+        <th class="hours">Hours</th>
+        <th>Mon</th>
+        <th>Tue</th>
+        <th>Wed</th>
+        <th>Thu</th>
+        <th>Fri</th>
+      </tr>
+      <tr>
+        <td class="hours">1</td>
+        <td>Science</td>
+        <td>Maths</td>
+        <td>English</td>
+        <td>Maths</td>
+        <td>Arts</td>
+      </tr>
+      <tr>
+        <td class="hours">2</td>
+        <td>Science</td>
+        <td>Maths</td>
+        <td>Science</td>
+        <td>English</td>
+        <td>Arts</td>
+      </tr>
+      <tr>
+        <td class="hours">3</td>
+        <td colspan="5" class="lunch">Lunch Break</td>
+      </tr>
+      <tr>
+        <td class="hours">4</td>
+        <td>Physics</td>
+        <td>Chemistry</td>
+        <td>Science</td>
+        <td>Maths</td>
+        <td>Drawing</td>
+      </tr>
+      <tr>
+        <td class="hours">5</td>
+        <td>Computer</td>
+        <td>Maths</td>
+        <td>Biology</td>
+        <td>History</td>
+        <td>Music</td>
+      </tr>
+    </table>
+  </div>
+
+</body>
+</html>
